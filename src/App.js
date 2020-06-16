@@ -62,7 +62,7 @@ function Home() {
       <p>Michael Exam 2020</p>
       <hr/>
       <h3>Documentation links</h3>
-      <a hred="https://jokerthewizard.dk/Exam-Backend" style={{color: "blue"}}>To Backend</a> <br/>
+      <a href="https://jokerthewizard.dk/Exam-Backend" style={{color: "blue"}}>To Backend</a> <br/>
       <a href="https://github.com/PetersenAndreas/CA3-Gruppe3-Front" style={{color: "blue"}}>To Github FrontEnd</a> <br/>
       <a href="https://github.com/PetersenAndreas/CA3-Gruppe3" style={{color: "blue"}}>To Github BackEnd</a> <br/>
     </div>
