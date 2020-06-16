@@ -59,11 +59,12 @@ function Home() {
   return (
     <div>
       <h1>Home</h1>
-      <p>Home is were the wifi connects automatically</p>
+      <p>Michael Exam 2020</p>
       <hr/>
-      <h3>This startcode was made by Gruppe3</h3>
-      <a href="https://github.com/PetersenAndreas/CA3-Gruppe3-Front" style={{color: "blue"}}>To the FrontEnd</a> <br/>
-      <a href="https://github.com/PetersenAndreas/CA3-Gruppe3" style={{color: "blue"}}>To the BackEnd</a> <br/>
+      <h3>Documentation links</h3>
+      <a hred="https://jokerthewizard.dk/Exam-Backend" style={{color: "blue"}}>To Backend</a> <br/>
+      <a href="https://github.com/PetersenAndreas/CA3-Gruppe3-Front" style={{color: "blue"}}>To Github FrontEnd</a> <br/>
+      <a href="https://github.com/PetersenAndreas/CA3-Gruppe3" style={{color: "blue"}}>To Github BackEnd</a> <br/>
     </div>
   );
 }
