@@ -4,7 +4,8 @@ import {
   Switch,
   Route} from "react-router-dom";
 import { Header } from "./Header";
-import { External } from "./External";
+import { Recipes } from "./Recipes";
+import { MenuPlan } from "./MenuPlan";
 import { LoginAndOut } from "./LoginAndOut";
 import { Admin } from "./Admin";
 
@@ -28,8 +29,11 @@ function App() {
           <Route exact path="/">
             <Home />
           </Route>
-          <Route path="/external">
-            <External />
+          <Route path="/recipes">
+            <Recipes />
+          </Route>
+          <Route path="/menuPlans">
+            <MenuPlan />
           </Route>
           <Route path="/admin-page">
             <Admin />

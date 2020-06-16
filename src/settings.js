@@ -1,21 +1,25 @@
+function URLS() {
+  function backendURL() {
+    const URL = "https://jokerthewizard.dk/Exam-Backend";
+    //const URL = "http://localhost:8080/startcode";
+    return URL;
+  }
 
-function URLS(){
+  function RecipeURL() {
+    const URL = backendURL() + "/api/recipe";
+    return URL;
+  }
 
-    function backendURL() {
-        const URL = "https://andreas-cph.com/CA3-Gruppe3";
-        return URL;
-    }
+  function MenuPlanURL() {
+    const URL = backendURL() + "/api/plan";
+    return URL;
+  }
 
-    function externalApi() {
-        const URL = "https://andreas-cph.com/CA3-Gruppe3/api/info/external";
-        return URL;
-    }
-
-    return {
-        backendURL,
-        externalApi
-    }
-
+  return {
+    backendURL,
+    RecipeURL,
+    MenuPlanURL
+  };
 }
 
 const settingUrl = URLS();
